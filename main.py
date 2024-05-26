@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 def run_script(script_path):
@@ -12,8 +11,11 @@ def main():
     scripts = [
         'src/data/make_dataset.py',
         'src/features/build_features.py',
+        'src/split/split_data.py',
         'src/models/train_model.py',
         'src/models/evaluate_model.py',
+        'src/data/generate_new_data.py',  
+        'src/models/predict_model.py',
         'src/visualization/visualize.py'
     ]
     

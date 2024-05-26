@@ -42,6 +42,7 @@ This project aims to create time-series models to forecast future sales based on
 
 - Use the Jupyter notebooks in the `notebooks` directory for exploratory data analysis and visualization.
 - Refer to the scripts in the `src` directory for data processing, feature engineering, model training, prediction, and evaluation.
+- or run python main.py to run all scripts.
 
 ## License
 
