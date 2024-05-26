@@ -1,0 +1,10 @@
+data:
+  raw_data_path: data/raw
+  interim_data_path: data/interim
+  processed_data_path: data/processed
+
+models:
+  model_save_path: models
+
+visualization:
+  figures_path: reports/figures
