@@ -51,6 +51,15 @@ This project aims to create time-series models to forecast future sales based on
 - Refer to the scripts in the `src` directory for data processing, feature engineering, model training, prediction, and evaluation.
 - or run python main.py to run all scripts.
 
+## OR
+  - Data Preparation: The `make_dataset.py` script prepares the raw data.
+  - Feature Engineering: The` build_features.py` script creates features from the raw data.
+  - Data Splitting: The `split_data.py` script splits the data into training and testing sets.
+  - Model Training: The `train_model.py` script trains the model.
+  - Model Evaluation: The `evaluate_model.py` script evaluates the model's performance.
+  - Generating New Data: The `generate_new_data.py` script creates new data for future predictions.
+  - Model Prediction: The `predict_model.py` script uses the trained model to make predictions.
+  - Visualization: The `visualize.py` script generates visualizations for exploratory data analysis and results.
 ## License
 
 This project is licensed under the MIT License.
