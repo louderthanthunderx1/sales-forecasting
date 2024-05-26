@@ -9,6 +9,9 @@ This project aims to create time-series models to forecast future sales based on
   - `interim/`: Intermediate data that has been transformed.
   - `processed/`: The final, canonical data sets for modeling.
   - `raw/`: The original, immutable data dump.
+  - `split/`: Directory for split train and test data.
+  - `predictions/`: Directory for saving predictions.
+  - `new/`: Directory for new data for predictions.
 
 - `docs/`: Documentation for the project.
 - `models/`: Trained and serialized models, model predictions, or model summaries.
@@ -19,16 +22,20 @@ This project aims to create time-series models to forecast future sales based on
 - `src/`: Source code for the project.
   - `data/`: Scripts to download or generate data.
     - `make_dataset.py`: Script to create or download datasets.
+    - `generate_new_data.py`: Script to generate new data for predictions.
   - `features/`: Scripts to transform raw data into features suitable for modeling.
     - `build_features.py`: Script to build features from raw data.
+  - `split/`: Scripts to split data into training and testing sets.
+    - `split_data.py`: Script to split the data.
   - `models/`: Scripts to train models and make predictions.
-    - `predict_model.py`: Script to use trained models for making predictions.
     - `train_model.py`: Script to train models.
     - `evaluate_model.py`: Script to evaluate models' performance.
+    - `predict_model.py`: Script to use trained models for making predictions.
   - `visualization/`: Scripts for creating visualizations.
     - `visualize.py`: Script to generate visualizations for exploratory data analysis and results.
 - `config/`: Configuration files for the project.
   - `config.yaml`: Configuration file for managing project settings.
+
 
 ## Getting Started
 
